@@ -1,0 +1,65 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
+    />
+    <title>Document</title>
+    <style>
+      .btn {
+        width: fit-content;
+        font-size: 22px;
+        font-weight: 300;
+        margin: 0;
+        padding: 10px 20px;
+      }
+
+      .radio-container {
+        display: flex;
+        justify-content: space-around;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <article>
+        <h1>Todo list</h1>
+        <form id="addTodoForm">
+          <input name="title" type="text" placeholder="Title" />
+          <textarea
+            placeholder="Description"
+            name="description"
+            id=""
+            rows="5"
+          ></textarea>
+          <br />
+          <button>Submit</button>
+        </form>
+      </article>
+      <article>
+        <table>
+          <thead>
+            <tr>
+              <th>Idx</th>
+              <th>Title</th>
+              <th>Description</th>
+              <th>Priority</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="todo-list">
+            <tr>
+              <td>1</td>
+              <td>Nauka</td>
+              <td>Pouczyć się JSa</td>
+              <td>High</td>
+              <td><button class="btn">&times;</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <article>
+        <h1>Flexbox playground</h1>
+        <div>
+          <select id="justifyContent">
+            <option value="" hidden>Justify content</option>
+            <option value="justify-content-start">Start</option>
+            <option value="justify-content-center">Center</option>
+            <option value="justify-content-space-between">Space between</option>
+            <option value="justify-content-space-around">Space around</option>
+            <option value="justify-content-end">End</option>
+          </select>
+        </div>
+        <div id="flex-container" class="flex-container">
+          <div class="flex-item"></div>
+          <div class="flex-item"></div>
+          <div class="flex-item"></div>
+        </div>
+      </article>
+    </main>
+    <script src="./solution.js"></script>
+  </body>
+</html>
