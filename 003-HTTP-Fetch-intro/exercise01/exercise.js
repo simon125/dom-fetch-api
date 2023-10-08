@@ -37,6 +37,7 @@
  * ⭐ policz zrobione i nie zrobione zadania osobno dla każdego usera (na podstawie userId)
  * i wyświetl w znany Ci sposób
  *
+ * ⭐⭐ wyświetl pobrane todoski w tabelce, nie ma tabelki? trzeba ją zbudować w index.html ;)
  *
  *
  * dokumentacja: https://jsonplaceholder.typicode.com/
@@ -62,4 +63,10 @@
  *
  *
  * dokumentacja: https://jsonplaceholder.typicode.com/
+ */
+
+/**
+ *
+ * Stwórz funkcje remove user która usunie wskazany rekord
+ *
  */
